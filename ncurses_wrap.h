@@ -82,6 +82,7 @@ int close(int);
 #  endif
 #endif
 
+#include <locale.h>
 #include <ruby.h>
 
 extern VALUE mNcurses;  /* module Ncurses */
